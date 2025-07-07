@@ -2,7 +2,7 @@ SRC_DIR = src
 BUILD_DIR = build
 EXE = tag
 
-SRC = main.c
+SRC = main.c scanner.c
 OBJ = $(SRC:%.c=$(BUILD_DIR)/%.o)
 
 CFLAGS += -std=c11 -Wall -Wextra -Werror -pedantic
